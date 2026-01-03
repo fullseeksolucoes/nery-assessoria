@@ -5,6 +5,7 @@ import {
   Bars3Icon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
+import Button from "./button";
 
 export function MobileMenu() {
   return (
@@ -18,16 +19,18 @@ export function MobileMenu() {
 
       <Dialog.Portal>
         {/* Overlay */}
-        <Dialog.Overlay className="fixed inset-0 bg-black/40 backdrop-blur-sm" />
+        <Dialog.Overlay className="fixed inset-0 z-50 bg-black/40 backdrop-blur-sm" />
 
         {/* Drawer */}
         <Dialog.Content
           className="
-            fixed right-0 top-0 h-full w-[85%] max-w-sm
+            fixed right-0 top-0 z-50 h-full w-[85%] max-w-sm
             bg-background p-6 shadow-xl
             flex flex-col
           "
         >
+          <Dialog.Title className="sr-only">Menu de navegação</Dialog.Title>
+
           {/* Fechar */}
           <Dialog.Close className="absolute top-4 right-4">
             <XMarkIcon className="h-7 w-7 text-primary" />
@@ -43,9 +46,9 @@ export function MobileMenu() {
 
           {/* CTA */}
           <div className="mt-auto">
-            <button className="w-full rounded-lg bg-primary py-3 text-white font-medium">
-              Solicitar orçamento
-            </button>
+            <Button variant="secondary" className="block w-full text-center" href="/contact">
+              Começar agora
+            </Button>
           </div>
         </Dialog.Content>
       </Dialog.Portal>

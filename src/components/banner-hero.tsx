@@ -2,6 +2,7 @@ import Image from "next/image";
 import Button from "./button";
 import Tag from "./tag";
 import { ArrowTrendingUpIcon } from "@heroicons/react/24/outline";
+import { GrowthCard } from "./growth-card";
 
 export default function BannerHero() {
   return (
@@ -17,29 +18,27 @@ export default function BannerHero() {
             <Tag>consultoria estratégica de marketing</Tag>
 
             <h1 className="font-heading font-extrabold text-5xl md:text-6xl lg:text-7xl leading-none text-primary">
-              Expanda Seu Negócio com{" "}
-              <span className="text-gradient">Autoridade.</span>
+            Cuidamos do seu Instagram do início ao{" "}
+              <span className="text-gradient">resultado.</span>
             </h1>
 
             <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto lg:mx-0 font-light">
-              Transformamos dados em estratégia e estratégia em crescimento.
-              A Nery Assessoria cria ecossistemas de marketing de alto impacto
-              para empresas ambiciosas.
+            Conteúdo, gravação, postagens diárias e tráfego pago. Você não se preocupa com nada. A gente entrega resultado.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button>Solicitar orçamento</Button>
-              <Button variant="outline">Falar com um especialista</Button>
+              <Button href="/contact">Solicitar orçamento</Button>
+              <Button variant="outline" href="https://wa.me/5531996569568?text=Oi,%20vim%20pelo%20site%20e%20quero%20entender%20como%20funciona%20a%20assessoria%20de%20marketing." target="_blank">Falar com um especialista</Button>
             </div>
           </div>
 
           {/* Hero visual */}
           <div className="relative hidden lg:block">
-            <div className="relative bg-gradient-to-br from-secondary to-primary rounded-2xl p-1 shadow-2xl rotate-2">
+            <div className="relative bg-gradient-to-br from-secondary to-primary rounded-2xl p-1 shadow-2xl rotate-3">
               <div className="relative h-[500px] w-full overflow-hidden rounded-xl bg-background">
                 {/* Imagem */}
                 <Image
-                  src="/banner-hero.png"
+                  src="/banner-hero.webp"
                   alt="Dashboard de crescimento"
                   fill
                   className="object-cover opacity-90"
@@ -48,25 +47,9 @@ export default function BannerHero() {
 
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex items-end p-8">
-                  <div className="w-full rounded-xl bg-white/10 backdrop-blur-md border border-white/20 p-6">
-                    <div className="flex items-center gap-4">
-                      <div className="h-10 w-10 rounded-full bg-accent flex items-center justify-center text-white font-bold">
-                        <div className="h-10 w-10 rounded-full bg-accent flex items-center justify-center text-white">
-                          <ArrowTrendingUpIcon className="h-6 w-6" />
-                        </div>
-                      </div>
-
-                      <div>
-                        <p className="text-white font-heading font-bold">
-                          Crescimento acelerado
-                        </p>
-                        <p className="text-white/70 text-sm">
-                          +127% no último trimestre
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                  <GrowthCard />
                 </div>
+
               </div>
             </div>
           </div>

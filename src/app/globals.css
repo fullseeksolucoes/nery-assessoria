@@ -34,6 +34,17 @@ body {
     -webkit-text-fill-color: transparent;
   }
 
+  .text-gradient-green {
+    background-image: linear-gradient(
+      135deg,
+      #10b981 0%,
+      #059669 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
   @keyframes marquee {
     0% {
       transform: translateX(0);
@@ -44,7 +55,7 @@ body {
   }
 
   .animate-marquee {
-    animation: marquee 28s linear infinite;
+    animation: marquee 60s linear infinite;
   }
 
   /* fade nas laterais */

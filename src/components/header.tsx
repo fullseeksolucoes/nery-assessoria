@@ -16,7 +16,7 @@ export default function Header() {
                         <NavLink href="/servicos">Serviços</NavLink>
                         <NavLink href="/sobre">Sobre</NavLink>
                         <NavLink href="/contato">Contato</NavLink>
-                        <Button variant="secondary">Começar agora</Button>
+                        <Button variant="secondary" href="https://wa.me/5531996569568?text=Quero%20contratar%20a%20assessoria%20de%20marketing%20para%20o%20meu%20neg%C3%B3cio." target="_blank">Começar agora</Button>
                     </div>
                     <div className="md:hidden flex items-center">
                         <MobileMenu />

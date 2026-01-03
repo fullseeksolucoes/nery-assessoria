@@ -2,6 +2,15 @@ import Image from "next/image";
 
 const logos = [
   { src: "/companies/fullseek.png", alt: "FullSeek" },
+  { src: "/companies/fullseek.png", alt: "FullSeek" },
+  { src: "/companies/fullseek.png", alt: "FullSeek" },
+  { src: "/companies/fullseek.png", alt: "FullSeek" },
+  { src: "/companies/fullseek.png", alt: "FullSeek" },
+  { src: "/companies/fullseek.png", alt: "FullSeek" },
+  { src: "/companies/fullseek.png", alt: "FullSeek" },
+  { src: "/companies/fullseek.png", alt: "FullSeek" },
+  { src: "/companies/fullseek.png", alt: "FullSeek" },
+  { src: "/companies/fullseek.png", alt: "FullSeek" },
 ];
 
 export default function PartnerCompanies() {
