@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Button from "./button";
 import Tag from "./tag";
-import { ArrowTrendingUpIcon } from "@heroicons/react/24/outline";
 import { GrowthCard } from "./growth-card";
 
 export default function BannerHero() {
@@ -18,23 +17,30 @@ export default function BannerHero() {
             <Tag>consultoria estratégica de marketing</Tag>
 
             <h1 className="font-heading font-extrabold text-5xl md:text-6xl lg:text-7xl leading-none text-primary">
-            Cuidamos do seu Instagram do início ao{" "}
+              Cuidamos do seu Instagram do início ao{" "}
               <span className="text-gradient">resultado.</span>
             </h1>
 
             <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto lg:mx-0 font-light">
-            Conteúdo, gravação, postagens diárias e tráfego pago. Você não se preocupa com nada. A gente entrega resultado.
+              Conteúdo, gravação, postagens diárias e tráfego pago. Você não se
+              preocupa com nada. A gente entrega resultado.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button href="/contact">Solicitar orçamento</Button>
-              <Button variant="outline" href="https://wa.me/5531996569568?text=Oi,%20vim%20pelo%20site%20e%20quero%20entender%20como%20funciona%20a%20assessoria%20de%20marketing." target="_blank">Falar com um especialista</Button>
+              <Button
+                variant="outline"
+                href="https://wa.me/5531996569568?text=Oi,%20vim%20pelo%20site%20e%20quero%20entender%20como%20funciona%20a%20assessoria%20de%20marketing."
+                target="_blank"
+              >
+                Falar com um especialista
+              </Button>
             </div>
           </div>
 
           {/* Hero visual */}
           <div className="relative hidden lg:block">
-            <div className="relative bg-gradient-to-br from-secondary to-primary rounded-2xl p-1 shadow-2xl rotate-3">
+            <div className="relative bg-linear-to-br from-secondary to-primary rounded-2xl p-1 shadow-2xl rotate-3">
               <div className="relative h-[500px] w-full overflow-hidden rounded-xl bg-background">
                 {/* Imagem */}
                 <Image
@@ -46,10 +52,9 @@ export default function BannerHero() {
                 />
 
                 {/* Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex items-end p-8">
+                <div className="absolute inset-0 bg-linear-to-t from-primary/80 to-transparent flex items-end p-8">
                   <GrowthCard />
                 </div>
-
               </div>
             </div>
           </div>

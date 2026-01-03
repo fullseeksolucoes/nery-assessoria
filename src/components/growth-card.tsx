@@ -9,8 +9,8 @@ export function GrowthCard() {
       initial={{ opacity: 0, x: 40 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{
-        duration: 0.6,
-        delay: 0.4,
+        duration: 0.9,
+        delay: 0.6,
         ease: "easeOut",
       }}
       className="w-full rounded-xl bg-white/10 backdrop-blur-md border border-white/20 p-6"
