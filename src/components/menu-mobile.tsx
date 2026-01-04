@@ -1,12 +1,18 @@
 "use client";
 
+import { useState } from "react";
 import * as Dialog from "@radix-ui/react-dialog";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Button from "./button";
+import Link from "next/link";
 
 export function MobileMenu() {
+  const [open, setOpen] = useState(false);
+
+  const closeMenu = () => setOpen(false);
+
   return (
-    <Dialog.Root>
+    <Dialog.Root open={open} onOpenChange={setOpen}>
       {/* Botão hamburguer */}
       <Dialog.Trigger asChild>
         <button className="lg:hidden p-2">
@@ -35,10 +41,34 @@ export function MobileMenu() {
 
           {/* Links */}
           <nav className="mt-16 flex flex-col gap-6 text-lg">
-            <a className="font-medium text-primary">Home</a>
-            <a className="font-medium text-primary">Serviços</a>
-            <a className="font-medium text-primary">Sobre</a>
-            <a className="font-medium text-primary">Contato</a>
+            <Link
+              className="font-medium text-primary"
+              href="/"
+              onClick={closeMenu}
+            >
+              Home
+            </Link>
+            <Link
+              className="font-medium text-primary"
+              href="/servicos"
+              onClick={closeMenu}
+            >
+              Serviços
+            </Link>
+            <Link
+              className="font-medium text-primary"
+              href="/sobre"
+              onClick={closeMenu}
+            >
+              Sobre
+            </Link>
+            <Link
+              className="font-medium text-primary"
+              href="/contato"
+              onClick={closeMenu}
+            >
+              Contato
+            </Link>
           </nav>
 
           {/* CTA */}
@@ -46,7 +76,10 @@ export function MobileMenu() {
             <Button
               variant="secondary"
               className="block w-full text-center"
-              href="/contato"
+              href="https://wa.me/5531996569568?text=Quero%20contratar%20a%20assessoria%20de%20marketing%20para%20o%20meu%20neg%C3%B3cio."
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp da Nery Assessoria"
             >
               Começar agora
             </Button>
