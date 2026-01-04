@@ -8,6 +8,9 @@
   --color-background: #ffffff;
   --color-foreground: #0f0f0f;
   --color-muted: #f5f5f7;
+
+  --font-manrope: var(--font-manrope);
+  --font-inter: var(--font-inter);
 }
 
 /* Base global */
@@ -74,6 +77,16 @@ body {
       black 90%,
       transparent 100%
     );
+  }
+
+  ::selection {
+    background-color: var(--color-accent);
+    color: #ffffff;
+  }
+
+  ::-moz-selection {
+    background-color: var(--color-accent);
+    color: #ffffff;
   }
   
 }

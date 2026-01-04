@@ -51,12 +51,12 @@ export default function ServicesSection() {
 
   return (
     <section
-      className="py-20 bg-linear-to-b from-white via-white to-gray-100"
+      className="py-12 bg-linear-to-b from-white via-gray-50 to-gray-100"
       id="services"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="font-display font-bold text-3xl md:text-4xl text-primary mb-4">
+          <h2 className="font-manrope font-bold text-3xl md:text-4xl text-primary mb-4">
             Tudo o que sua empresa precisa para crescer no Instagram
           </h2>
 

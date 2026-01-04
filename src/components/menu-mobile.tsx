@@ -1,10 +1,7 @@
 "use client";
 
 import * as Dialog from "@radix-ui/react-dialog";
-import {
-  Bars3Icon,
-  XMarkIcon,
-} from "@heroicons/react/24/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Button from "./button";
 
 export function MobileMenu() {
@@ -46,7 +43,11 @@ export function MobileMenu() {
 
           {/* CTA */}
           <div className="mt-auto">
-            <Button variant="secondary" className="block w-full text-center" href="/contact">
+            <Button
+              variant="secondary"
+              className="block w-full text-center"
+              href="/contato"
+            >
               Começar agora
             </Button>
           </div>

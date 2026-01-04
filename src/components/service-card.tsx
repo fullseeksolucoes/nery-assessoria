@@ -31,7 +31,7 @@ export default function ServiceCard({
         {icon}
       </div>
 
-      <h3 className="font-display font-bold text-xl text-primary mb-3">
+      <h3 className="font-manrope font-bold text-xl text-primary mb-3">
         {title}
       </h3>
 

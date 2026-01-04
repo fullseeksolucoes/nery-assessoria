@@ -8,7 +8,10 @@ import Image from "next/image";
 
 export default function OurApproach() {
   return (
-    <section className="py-24 bg-white overflow-hidden" id="approach">
+    <section
+      className="py-12 overflow-hidden bg-linear-to-b from-gray-100 via-gray-50 to-white"
+      id="approach"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center gap-16">
           {/* Image side */}
@@ -40,7 +43,7 @@ export default function OurApproach() {
 
           {/* Content side */}
           <div className="lg:w-1/2 space-y-8">
-            <h2 className="font-display font-bold text-3xl md:text-4xl text-primary leading-tight">
+            <h2 className="font-manrope font-bold text-3xl md:text-4xl text-primary leading-tight">
               Cuidamos do seu marketing para gerar{" "}
               <span className="text-accent">resultado real.</span>
             </h2>
