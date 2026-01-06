@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Manrope, Inter } from "next/font/google";
 import "./globals.css";
+import { ToastContainer } from "react-toastify";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -33,10 +34,18 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body
-        className={`${manrope.variable} ${inter.variable} antialiased`}
-      >
+      <body className={`${manrope.variable} ${inter.variable} antialiased`}>
         {children}
+        <ToastContainer
+          position="top-right"
+          autoClose={4000}
+          hideProgressBar={false}
+          newestOnTop
+          closeOnClick
+          pauseOnHover
+          draggable
+          theme="colored"
+        />
       </body>
     </html>
   );

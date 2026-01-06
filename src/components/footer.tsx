@@ -4,6 +4,7 @@ import { Mail, MapPinHouse } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
+import Logo from "./logo";
 
 export default function Footer() {
   return (
@@ -12,10 +13,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              {/* <Logo size="sm" /> */}
-              <p className="text-white font-medium">
-                Nery Assessoria Marketing
-              </p>
+              <Logo size="lg" variant="white" />
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
               Assessoria de marketing focada na gestão completa do Instagram.
