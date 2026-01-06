@@ -1,7 +1,13 @@
+import AboutHero from "@/components/about-hero";
+import ConversionSection from "@/components/conversion-section";
+import OurStory from "@/components/our-story";
+
 export default function AboutPage() {
     return (
-        <div>
-            <h1>Sobre</h1>
-        </div>
+        <main>
+            <AboutHero />
+            <OurStory />
+            <ConversionSection />
+        </main>
     )
 }
