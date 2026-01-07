@@ -9,8 +9,8 @@ import Image from "next/image";
 export default function OurApproach() {
   return (
     <section
-      className="py-12 overflow-hidden bg-linear-to-b from-gray-100 via-gray-50 to-white"
-      id="approach"
+      className="py-12 overflow-hidden bg-linear-to-b from-white via-gray-50 to-gray-100"
+      id="our-approach"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center gap-16">

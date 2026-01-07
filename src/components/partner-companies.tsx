@@ -10,7 +10,7 @@ const companies = [
 
 export default function PartnerCompanies() {
   return (
-    <section className="py-12">
+    <section className="py-12" id="partner-companies">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="mb-8 text-center text-sm font-medium uppercase tracking-widest text-foreground/50">
           Empresas que confiam em nós

@@ -26,8 +26,8 @@ export default function HowWeWorkSection() {
   ];
 
   return (
-    <section className="py-20 px-4 md:px-10 bg-white">
-      <div className="max-w-7xl mx-auto flex flex-col gap-10 rounded-2xl bg-white border border-[#ece7f3] p-8 shadow-sm">
+    <section className="py-20 px-4 md:px-10 bg-white" id="how-we-work">
+      <div className="max-w-7xl mx-auto flex flex-col gap-14 rounded-2xl bg-white border border-[#ece7f3] p-8 shadow-sm">
         <div className="text-center">
           <h2 className="font-manrope text-2xl md:text-3xl font-bold text-primary">
             Como trabalhamos

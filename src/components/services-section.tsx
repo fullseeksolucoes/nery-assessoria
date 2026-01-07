@@ -51,7 +51,7 @@ export default function ServicesSection() {
 
   return (
     <section
-      className="py-12 bg-linear-to-b from-white via-gray-50 to-gray-100"
+      className="py-12"
       id="services"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -2,7 +2,7 @@ import Button from "./button";
 
 export default function ConversionSection() {
   return (
-    <section className="py-20 bg-accent relative overflow-hidden" id="contact">
+    <section className="py-20 bg-accent relative overflow-hidden" id="conversion">
       <div
         className="absolute inset-0 opacity-10"
         style={{

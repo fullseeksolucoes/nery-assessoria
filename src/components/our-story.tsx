@@ -1,6 +1,6 @@
 export default function OurStory() {
   return (
-    <section className="py-16 px-4 md:px-10 flex justify-center bg-surface-light">
+    <section className="py-16 px-4 md:px-10 flex justify-center bg-surface-light" id="our-story">
       <div className="max-w-6xl w-full flex flex-col md:flex-row gap-12 items-center">
         <div className="w-full md:w-1/2 relative group">
           <div className="absolute -inset-2 bg-linear-to-r from-accent to-purple-400 rounded-xl opacity-20 group-hover:opacity-40 blur transition duration-500"></div>

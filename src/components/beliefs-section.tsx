@@ -5,7 +5,7 @@ import { HeartIcon } from "@heroicons/react/24/solid";
 
 export default function BeliefsSection() {
   return (
-    <section className="py-20 px-4 md:px-10">
+    <section className="py-20 px-4 md:px-10" id="beliefs">
       <div className="max-w-6xl mx-auto flex flex-col gap-12">
         <div className="flex flex-col gap-4 text-center max-w-3xl mx-auto">
           <h2 className="font-manrope text-3xl md:text-4xl font-extrabold text-primary">

@@ -13,7 +13,7 @@ interface HowWeWorkStepProps {
   }: HowWeWorkStepProps) {
     return (
       <div className="relative flex flex-col items-center text-center">
-        <div className="z-10 flex items-center justify-center w-14 h-14 rounded-full bg-white border-2 border-accent text-accent shadow-sm">
+        <div className="z-10 flex items-center justify-center w-12 h-12 rounded-full bg-white border-2 border-accent text-accent shadow-sm">
           {icon}
         </div>
   

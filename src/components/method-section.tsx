@@ -33,7 +33,7 @@ const methodSteps = [
 
 export default function MethodSection() {
   return (
-    <section className="py-20 px-4 md:px-10 bg-surface-light">
+    <section className="py-20 px-4 md:px-10 bg-surface-light" id="method">
       <div className="max-w-4xl mx-auto flex flex-col gap-12">
         <div className="text-center">
           <h2 className="font-manrope text-3xl md:text-4xl font-extrabold text-primary mb-4">

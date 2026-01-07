@@ -5,7 +5,7 @@ import { GrowthCard } from "./growth-card";
 
 export default function BannerHero() {
   return (
-    <section className="relative pt-20 pb-28 md:pt-32 md:pb-40 overflow-hidden">
+    <section className="relative pt-20 pb-28 md:pt-32 md:pb-40 overflow-hidden" id="banner-hero">
       {/* Efeitos de blur decorativos */}
       <div className="absolute top-0 right-0 -mr-20 -mt-20 w-[600px] h-[600px] bg-primary/15 rounded-full blur-3xl pointer-events-none hidden lg:block" />
       <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-[400px] h-[400px] bg-accent/15 rounded-full blur-3xl pointer-events-none hidden lg:block" />
