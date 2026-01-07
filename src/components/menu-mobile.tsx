@@ -69,6 +69,13 @@ export function MobileMenu() {
             >
               Contato
             </Link>
+            <Link
+              className="font-medium text-primary"
+              href="/depoimentos"
+              onClick={closeMenu}
+            >
+              Depoimentos
+            </Link>
           </nav>
 
           {/* CTA */}

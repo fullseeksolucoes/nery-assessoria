@@ -174,7 +174,7 @@ export default function ContactForm() {
           <button
             type="submit"
             disabled={status === "loading" || !privacyAccepted}
-            className="group flex w-full items-center justify-center gap-2 rounded-lg bg-accent py-4 text-sm font-bold text-white shadow-lg shadow-accent/25 transition-all hover:-translate-y-0.5 hover:shadow-xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:translate-y-0"
+            className="group flex w-full items-center justify-center gap-2 rounded-lg bg-primary py-4 text-sm font-bold text-white shadow-lg shadow-primary/25 transition-all hover:-translate-y-0.5 hover:shadow-xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary disabled:opacity-80 disabled:cursor-not-allowed disabled:hover:translate-y-0"
           >
             {status === "loading" ? "Enviando..." : "Enviar"}
           </button>
