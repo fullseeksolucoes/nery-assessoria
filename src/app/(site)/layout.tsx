@@ -1,5 +1,6 @@
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import PageTransition from "@/components/page-transaction";
 
 export default function SiteLayout({
   children,
@@ -9,7 +10,11 @@ export default function SiteLayout({
   return (
     <>
       <Header />
-      <main>{children}</main>
+      <main className="min-h-screen">
+        <PageTransition>
+          {children}
+        </PageTransition>
+      </main>
       <Footer />
     </>
   );

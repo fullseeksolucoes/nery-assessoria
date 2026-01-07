@@ -2,7 +2,7 @@ import Link from "next/link";
 // import Logo from "./logo";
 import { Mail, MapPinHouse } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa6";
-// import { FaFacebookSquare } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import Logo from "./logo";
 
@@ -28,15 +28,15 @@ export default function Footer() {
               >
                 <RiInstagramFill size={18} />
               </a>
-              {/* <a
+              <a
                 className="text-gray-400 hover:text-white transition-colors"
-                href="https://www.facebook.com/seuperfil"
+                href="https://www.facebook.com/share/16cuNUoQcV/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook da Nery Assessoria"
               >
                 <FaFacebookSquare size={18} />
-              </a> */}
+              </a>
             </div>
           </div>
           <div>

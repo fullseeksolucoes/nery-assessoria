@@ -1,4 +1,6 @@
 import ConversionSection from "@/components/conversion-section";
+import HowWeWork from "@/components/how-we-work-section";
+import ServicesSection from "@/components/services-section";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -10,6 +12,8 @@ export const metadata: Metadata = {
 export default function ServicesPage() {
   return (
     <main>
+      <ServicesSection />
+      <HowWeWork />
       <ConversionSection />
     </main>
   );
