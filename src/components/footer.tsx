@@ -67,14 +67,14 @@ export default function Footer() {
                 </Link>
               </li>
 
-              <li>
+              {/* <li>
                 <Link
                   href="/depoimentos"
                   className="hover:text-gray-200 hover:underline underline-offset-4 transition-all duration-200"
                 >
                   Depoimentos
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div>
