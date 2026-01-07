@@ -24,7 +24,7 @@ export default function PartnerCompanies() {
       <div className="max-w-7xl mx-auto px-6">
         <h2
           id="partners-heading"
-          className="mb-8 text-center text-sm font-medium uppercase tracking-widest text-foreground/50"
+          className="mb-8 text-center text-sm font-medium uppercase tracking-widest text-foreground/70"
         >
           Empresas que confiam em nós
         </h2>

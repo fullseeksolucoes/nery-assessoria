@@ -18,12 +18,12 @@ export default function Footer() {
             <div className="flex items-center gap-2">
               <Logo size="lg" variant="white" />
             </div>
-            <p className="text-gray-400 text-sm leading-relaxed">
+            <p className="text-gray-300 text-sm leading-relaxed">
               Assessoria de marketing focada na gestão completa do Instagram.
             </p>
             <nav aria-label="Redes sociais" className="flex gap-4 pt-2">
               <a
-                className="text-gray-400 hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary rounded-sm"
+                className="text-gray-300 hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary rounded-sm"
                 href="https://www.instagram.com/nery.assessoria/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -32,7 +32,7 @@ export default function Footer() {
                 <RiInstagramFill size={18} aria-hidden="true" />
               </a>
               <a
-                className="text-gray-400 hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary rounded-sm"
+                className="text-gray-300 hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary rounded-sm"
                 href="https://www.facebook.com/share/16cuNUoQcV/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -43,8 +43,8 @@ export default function Footer() {
             </nav>
           </div>
           <nav aria-label="Links da empresa">
-            <h4 className="font-bold text-lg mb-6">Empresa</h4>
-            <ul className="space-y-3 text-sm text-gray-400">
+            <p className="font-bold text-lg mb-6">Empresa</p>
+            <ul className="space-y-3 text-sm text-gray-300">
               <li>
                 <Link
                   href="/sobre"
@@ -80,7 +80,7 @@ export default function Footer() {
             </ul>
           </nav>
           <div>
-            <h4 className="font-bold text-lg mb-6">Nossos Serviços</h4>
+            <p className="font-bold text-lg mb-6">Nossos Serviços</p>
             <ul className="space-y-3 text-sm text-gray-400" role="list">
               <li>Gestão completa do Instagram</li>
               <li>Criação de conteúdo</li>
@@ -89,8 +89,8 @@ export default function Footer() {
             </ul>
           </div>
           <address className="not-italic">
-            <h4 className="font-bold text-lg mb-6">Contato</h4>
-            <ul className="space-y-3 text-sm text-gray-400">
+            <p className="font-bold text-lg mb-6">Contato</p>
+            <ul className="space-y-3 text-sm text-gray-300">
               <li>
                 <a
                   className="flex items-center gap-2 hover:text-gray-200 hover:underline underline-offset-4 transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary rounded-sm"
@@ -128,7 +128,7 @@ export default function Footer() {
             </ul>
           </address>
         </div>
-        <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
+        <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-300">
           <p>
             <span aria-label="Copyright">&copy;</span> {new Date().getFullYear()}{" "}
             <span className="text-white">Nery Assessoria Marketing</span> |
@@ -149,13 +149,13 @@ export default function Footer() {
           >
             <Link
               href="/politica-de-privacidade"
-              className="hover:text-gray-200 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary rounded-sm"
+              className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary rounded-sm"
             >
               Política de privacidade
             </Link>
             <Link
               href="/termos-de-servico"
-              className="hover:text-gray-200 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary rounded-sm"
+              className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary rounded-sm"
             >
               Termos de serviço
             </Link>

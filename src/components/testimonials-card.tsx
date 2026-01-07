@@ -16,7 +16,10 @@ export default function TestimonialsCard({
   job,
 }: TestimonialsCardProps) {
   return (
-    <article className="group flex flex-col p-6 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl hover:translate-y-1 transition-all duration-300">
+    <article
+      role="listitem"
+      className="group flex flex-col p-6 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl hover:translate-y-1 transition-all duration-300"
+    >
       <div
         className="mb-6 text-accent/40 group-hover:text-accent transition-colors"
         aria-hidden="true"

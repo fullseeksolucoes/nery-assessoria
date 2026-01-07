@@ -17,6 +17,7 @@ export default function ServiceCard({
 }: ServiceCardProps) {
   return (
     <motion.div
+      role="listitem"
       initial={{ opacity: 0, y: 60, scale: 0.96 }}
       whileInView={{ opacity: 1, y: 0, scale: 1 }}
       viewport={{ once: true, margin: "-80px" }}
