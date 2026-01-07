@@ -6,7 +6,7 @@ export default function OurStory() {
           <div className="absolute -inset-2 bg-linear-to-r from-accent to-purple-400 rounded-xl opacity-20 group-hover:opacity-40 blur transition duration-500"></div>
           <div
             className="relative w-full aspect-video bg-cover bg-center rounded-xl shadow-xl overflow-hidden"
-            style={{ backgroundImage: "url('/banner-our-story.webp')" }}
+            style={{ backgroundImage: "url('/about/banner-our-story.webp')" }}
           ></div>
         </div>
         <div className="w-full md:w-1/2 flex flex-col gap-6">

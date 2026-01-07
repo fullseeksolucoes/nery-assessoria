@@ -6,7 +6,7 @@ export default function ContactMap() {
     <div className="overflow-hidden rounded-2xl border border-foreground/5 bg-white shadow-sm h-64 relative">
       {/* Imagem do mapa */}
       <Image
-        src="/map-contact.webp"
+        src="/contact/map-contact.webp"
         alt="Localização em Sabará, MG - Brasil"
         fill
         className="object-cover"

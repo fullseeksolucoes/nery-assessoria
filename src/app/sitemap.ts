@@ -28,12 +28,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: "monthly",
         priority: 0.7,
     },
-    // {
-    //     url: `${baseUrl}/depoimentos`,
-    //     lastModified: new Date(),
-    //     changeFrequency: "monthly",
-    //     priority: 0.7,
-    // },
+    {
+        url: `${baseUrl}/depoimentos`,
+        lastModified: new Date(),
+        changeFrequency: "monthly",
+        priority: 0.7,
+    },
     {
         url: `${baseUrl}/politica-de-privacidade`,
         lastModified: new Date(),

@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { ArrowTrendingUpIcon } from "@heroicons/react/24/solid"
+import { motion } from "framer-motion";
+import { ArrowTrendingUpIcon } from "@heroicons/react/24/solid";
 
 export function GrowthCard() {
   return (
@@ -25,10 +25,11 @@ export function GrowthCard() {
             Crescimento acelerado
           </p>
           <p className="text-white/70 text-sm">
-            <span className="text-gradient-green text-lg">+127%</span> no último trimestre
+            <span className="text-gradient-green text-lg">+127%</span> no último
+            trimestre
           </p>
         </div>
       </div>
     </motion.div>
-  )
+  );
 }

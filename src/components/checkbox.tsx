@@ -1,3 +1,5 @@
+"use client";
+
 import { motion } from "framer-motion";
 
 type CheckboxProps = {
@@ -11,7 +13,7 @@ export function Checkbox({ checked, onChange, label, id }: CheckboxProps) {
   return (
     <label
       htmlFor={id}
-      className="flex items-start gap-3 cursor-pointer select-none"
+      className="flex items-start gap-3 cursor-pointer select-none group"
     >
       <div className="relative">
         <input
@@ -20,6 +22,7 @@ export function Checkbox({ checked, onChange, label, id }: CheckboxProps) {
           checked={checked}
           onChange={(e) => onChange(e.target.checked)}
           className="peer sr-only"
+          aria-describedby={`${id}-label`}
         />
 
         <motion.div
@@ -29,7 +32,8 @@ export function Checkbox({ checked, onChange, label, id }: CheckboxProps) {
             borderColor: checked ? "#4718AD" : "#d1d5db",
           }}
           transition={{ type: "spring", stiffness: 400, damping: 20 }}
-          className="size-5 rounded-md border flex items-center justify-center"
+          className="size-5 rounded-md border flex items-center justify-center peer-focus-visible:ring-2 peer-focus-visible:ring-accent peer-focus-visible:ring-offset-2"
+          aria-hidden="true"
         >
           {checked && (
             <motion.svg
@@ -41,6 +45,7 @@ export function Checkbox({ checked, onChange, label, id }: CheckboxProps) {
               fill="none"
               stroke="currentColor"
               strokeWidth="3"
+              aria-hidden="true"
             >
               <polyline points="20 6 9 17 4 12" />
             </motion.svg>
@@ -48,7 +53,9 @@ export function Checkbox({ checked, onChange, label, id }: CheckboxProps) {
         </motion.div>
       </div>
 
-      <span className="text-sm text-gray-600 leading-snug">{label}</span>
+      <span id={`${id}-label`} className="text-sm text-gray-600 leading-snug">
+        {label}
+      </span>
     </label>
   );
 }

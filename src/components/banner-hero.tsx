@@ -5,10 +5,20 @@ import { GrowthCard } from "./growth-card";
 
 export default function BannerHero() {
   return (
-    <section className="relative pt-20 pb-28 md:pt-32 md:pb-40 overflow-hidden" id="banner-hero">
+    <section
+      className="relative pt-20 pb-28 md:pt-32 md:pb-40 overflow-hidden"
+      id="banner-hero"
+      aria-label="Seção principal"
+    >
       {/* Efeitos de blur decorativos */}
-      <div className="absolute top-0 right-0 -mr-20 -mt-20 w-[600px] h-[600px] bg-primary/15 rounded-full blur-3xl pointer-events-none hidden lg:block" />
-      <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-[400px] h-[400px] bg-accent/15 rounded-full blur-3xl pointer-events-none hidden lg:block" />
+      <div
+        className="absolute top-0 right-0 -mr-20 -mt-20 w-[600px] h-[600px] bg-primary/15 rounded-full blur-3xl pointer-events-none hidden lg:block"
+        aria-hidden="true"
+      />
+      <div
+        className="absolute bottom-0 left-0 -ml-20 -mb-20 w-[400px] h-[400px] bg-accent/15 rounded-full blur-3xl pointer-events-none hidden lg:block"
+        aria-hidden="true"
+      />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -26,14 +36,20 @@ export default function BannerHero() {
               preocupa com nada. A gente entrega resultado.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button href="/contato">Solicitar orçamento</Button>
+            <div
+              className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
+              role="group"
+              aria-label="Ações principais"
+            >
+              <Button href="/contato" ariaLabel="Ir para página de contato e solicitar orçamento">
+                Solicitar orçamento
+              </Button>
               <Button
                 variant="outline"
                 href="https://wa.me/5531996569568?text=Oi,%20vim%20pelo%20site%20e%20quero%20entender%20como%20funciona%20a%20assessoria%20de%20marketing."
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="WhatsApp da Nery Assessoria"
+                ariaLabel="Iniciar conversa no WhatsApp com um especialista"
               >
                 Falar com um especialista
               </Button>
@@ -41,16 +57,17 @@ export default function BannerHero() {
           </div>
 
           {/* Hero visual */}
-          <div className="relative hidden lg:block">
+          <div className="relative hidden lg:block" aria-hidden="true">
             <div className="relative bg-linear-to-br from-secondary to-primary rounded-2xl p-1 shadow-2xl rotate-3">
               <div className="relative h-[500px] w-full overflow-hidden rounded-xl bg-background">
                 {/* Imagem */}
                 <Image
-                  src="/banner-hero.webp"
-                  alt="Dashboard de crescimento"
+                  src="/home/banner-hero.webp"
+                  alt=""
                   fill
                   className="object-cover opacity-90"
                   priority
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                 />
 
                 {/* Overlay */}

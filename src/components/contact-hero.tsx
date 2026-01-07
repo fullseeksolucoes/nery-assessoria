@@ -2,7 +2,7 @@ import Tag from "@/components/tag";
 
 export default function ContactHero() {
   return (
-    <div className="space-y-4">
+    <header className="space-y-4">
       <Tag variant="secondary">Fale Conosco</Tag>
       <h1 className="text-4xl font-extrabold tracking-tight text-foreground sm:text-5xl font-heading leading-[1.15]">
         Vamos Crescer Sua <br />
@@ -13,6 +13,6 @@ export default function ContactHero() {
         contato diretamente. Estamos ansiosos para conhecer seus desafios e
         objetivos.
       </p>
-    </div>
+    </header>
   );
 }

@@ -14,14 +14,18 @@ export default function Logo({ size = "md", variant = "normal" }: LogoProps) {
   };
 
   const variants = {
-    normal: "/logo-horizontal.png",
-    white: "/logo-horizontal-white.png",
+    normal: "/logo/logo-horizontal.png",
+    white: "/logo/logo-horizontal-white.png",
   };
 
   return (
-    <Link href="/" aria-label="Nery Assessoria Marketing">
+    <Link
+      href="/"
+      aria-label="Ir para página inicial - Nery Assessoria Marketing"
+      className="inline-block focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 rounded-sm"
+    >
       <Image
-        src={variants[variant as keyof typeof variants]}
+        src={variants[variant]}
         alt="Nery Assessoria Marketing"
         width={sizes[size]}
         height={sizes[size] / 4}

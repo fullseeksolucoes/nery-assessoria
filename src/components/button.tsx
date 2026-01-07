@@ -36,7 +36,7 @@ export default function Button({
     <Link
       href={href || "/"}
       target={target}
-      className={`rounded-full font-medium transition cursor-pointer ${variantStyles[variant]} ${className}`}
+      className={`rounded-full font-medium transition cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-accent ${variantStyles[variant]} ${className}`}
       rel={rel}
       aria-label={ariaLabel}
     >
