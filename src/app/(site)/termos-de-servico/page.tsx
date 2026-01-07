@@ -1,3 +1,11 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Termos de Serviço",
+  description:
+    "Conheça os termos e condições para utilização dos serviços e do site da Nery Assessoria.",
+};
+
 export default function TermsOfServicePage() {
   return (
     <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">

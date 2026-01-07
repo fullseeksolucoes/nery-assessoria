@@ -3,6 +3,13 @@ import ContactHero from "@/components/contact-hero";
 import ContactCards from "@/components/contact-cards";
 import ContactMap from "@/components/contact-map";
 import PartnerCompanies from "@/components/partner-companies";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contato",
+  description:
+    "Entre em contato com a Nery Assessoria e entenda como funciona nossa assessoria de marketing para Instagram.",
+};
 
 export default function ContactPage() {
   return (

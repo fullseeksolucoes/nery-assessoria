@@ -25,6 +25,12 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.ico",
   },
+  openGraph: {
+    type: "website",
+    locale: "pt_BR",
+    url: "https://www.neryassessoria.com.br",
+    siteName: "Nery Assessoria Marketing",
+  },
 };
 
 export default function RootLayout({

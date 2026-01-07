@@ -1,5 +1,14 @@
 import Link from "next/link";
 import { CheckCircleIcon } from "@heroicons/react/24/solid";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Mensagem enviada",
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 export default function ObrigadoPage() {
   return (
