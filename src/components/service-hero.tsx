@@ -12,7 +12,7 @@ export default function ServiceHero() {
           aria-label="Equipe colaborando em estratégia de marketing em um escritório moderno"
           style={{
             backgroundImage:
-              "linear-gradient(rgba(23, 16, 34, 0.7), rgba(99, 19, 236, 0.6)), url('https://lh3.googleusercontent.com/aida-public/AB6AXuBompgrSmsVVmCZ-_OdsSYvh7rjh-WAJOFZ6slTGmY5m_aGWPfIo7cgEcfuNM2K_V6NCJ3t_fnj5d4yoUbCWdFik8xiJ2MGZAsGU-4ZUgjyrNEO9-psnsSDHTfDAnjOuOw8NKKvVt_Gc5CmQddP3vjJITwYAs6Swf4hyj7ANGLbdQK2nT36oNQDwk1NfjA-N8rC4grTBuA-OozMd18cyVeiExriFSiTs-_uQhPI-EgRsjp1TQCGN-uL9Nf2vtcbEUIoypYxgpGMewY')",
+              "linear-gradient(rgba(23, 16, 34, 0.7), rgba(99, 19, 236, 0.6)), url('/service/team.webp')",
           }}
         >
           <header className="max-w-2xl flex flex-col gap-4 z-10">

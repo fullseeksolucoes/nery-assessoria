@@ -1,6 +1,7 @@
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import PageTransition from "@/components/page-transaction";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function SiteLayout({
   children,
@@ -21,6 +22,7 @@ export default function SiteLayout({
         <PageTransition>{children}</PageTransition>
       </main>
       <Footer />
+      <SpeedInsights />
     </>
   );
 }
