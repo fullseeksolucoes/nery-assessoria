@@ -94,7 +94,7 @@ export default function ContactForm() {
                 htmlFor={`${formId}-name`}
                 className="text-sm font-semibold text-foreground"
               >
-                Nome completo
+                Nome completo <span className="text-xs text-red-500">*</span>
               </label>
               <input
                 id={`${formId}-name`}
@@ -123,7 +123,8 @@ export default function ContactForm() {
                 htmlFor={`${formId}-email`}
                 className="text-sm font-semibold text-foreground"
               >
-                Email profissional
+                Email profissional{" "}
+                <span className="text-xs text-red-500">*</span>
               </label>
               <input
                 id={`${formId}-email`}
@@ -155,7 +156,8 @@ export default function ContactForm() {
               htmlFor={`${formId}-company`}
               className="text-sm font-semibold text-foreground"
             >
-              Empresa / Organização
+              Empresa / Organização{" "}
+              <span className="text-xs text-red-500">*</span>
             </label>
             <input
               id={`${formId}-company`}
@@ -184,7 +186,8 @@ export default function ContactForm() {
               htmlFor={`${formId}-phone`}
               className="text-sm font-semibold text-foreground"
             >
-              Telefone / WhatsApp
+              Telefone / WhatsApp{" "}
+              <span className="text-xs text-red-500">*</span>
             </label>
             <input
               id={`${formId}-phone`}
