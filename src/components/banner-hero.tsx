@@ -24,7 +24,7 @@ export default function BannerHero() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Conteúdo textual */}
           <div className="space-y-8 text-center lg:text-left">
-            <Tag>consultoria estratégica de marketing</Tag>
+            <Tag>gestão completa de marketing do seu negócio</Tag>
 
             <h1 className="font-manrope font-extrabold text-5xl md:text-6xl lg:text-7xl leading-none text-primary">
               Cuidamos do seu Instagram do início ao{" "}
@@ -41,7 +41,10 @@ export default function BannerHero() {
               role="group"
               aria-label="Ações principais"
             >
-              <Button href="/contato" ariaLabel="Ir para página de contato e solicitar orçamento">
+              <Button
+                href="/contato"
+                ariaLabel="Ir para página de contato e solicitar orçamento"
+              >
                 Solicitar orçamento
               </Button>
               <Button

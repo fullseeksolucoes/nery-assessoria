@@ -8,8 +8,11 @@ const companies = [
     name: "Executive Assessoria Contábil",
     instagram: "https://www.instagram.com/contabilidadeexecutive/",
   },
-  { name: "FullSeek", instagram: "https://www.instagram.com/full.seek/" },
-  { name: "Mix Tropical", instagram: "https://www.instagram.com/mixtropicall/" },
+  // { name: "FullSeek", instagram: "https://www.instagram.com/full.seek/" },
+  {
+    name: "Mix Tropical",
+    instagram: "https://www.instagram.com/mixtropicall/",
+  },
   { name: "Nery Barber", instagram: "https://www.instagram.com/nery.barber/" },
   { name: "Vclean", instagram: "https://www.instagram.com/vcleanloja/" },
 ];
