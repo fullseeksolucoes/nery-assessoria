@@ -130,11 +130,12 @@ export default function Footer() {
         </div>
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-300">
           <p>
-            <span aria-label="Copyright">&copy;</span> {new Date().getFullYear()}{" "}
+            <span aria-label="Copyright">&copy;</span>{" "}
+            {new Date().getFullYear()}{" "}
             <span className="text-white">Nery Assessoria Marketing</span> |
             Desenvolvido por{" "}
             <a
-              href="https://www.instagram.com/full.seek/"
+              href="https://www.fullseek.com.br/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Visite o perfil da FullSeek Soluções Tecnológicas"
@@ -143,10 +144,7 @@ export default function Footer() {
               FullSeek Soluções Tecnológicas
             </a>
           </p>
-          <nav
-            aria-label="Links legais"
-            className="flex gap-6 mt-4 md:mt-0"
-          >
+          <nav aria-label="Links legais" className="flex gap-6 mt-4 md:mt-0">
             <Link
               href="/politica-de-privacidade"
               className="hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary rounded-sm"
