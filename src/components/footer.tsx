@@ -122,7 +122,7 @@ export default function Footer() {
                   aria-label="Ver localização no Google Maps"
                 >
                   <MapPinHouse size={16} aria-hidden="true" />
-                  Sabará, MG - Brasil
+                  Belo Horizonte, MG - Brasil
                 </a>
               </li>
             </ul>

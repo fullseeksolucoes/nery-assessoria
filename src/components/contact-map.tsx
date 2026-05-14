@@ -7,7 +7,7 @@ export default function ContactMap() {
       {/* Imagem do mapa */}
       <Image
         src="/contact/map-contact.webp"
-        alt="Localização em Sabará, MG - Brasil"
+        alt="Localização em Belo Horizonte, MG - Brasil"
         fill
         className="object-cover"
       />
@@ -38,7 +38,7 @@ export default function ContactMap() {
         <div className="flex items-center gap-2">
           <MapPinIcon className="size-4 text-accent" />
           <span className="text-sm font-semibold text-foreground">
-            Sabará, MG - Brasil
+            Belo Horizonte, MG - Brasil
           </span>
         </div>
       </div>

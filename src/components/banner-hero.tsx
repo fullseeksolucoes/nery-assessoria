@@ -16,7 +16,7 @@ export default function BannerHero() {
         aria-hidden="true"
       />
       <div
-        className="absolute bottom-0 left-0 -ml-20 -mb-20 w-[400px] h-[400px] bg-accent/15 rounded-full blur-3xl pointer-events-none hidden lg:block"
+        className="absolute bottom-0 left-0 -ml-20 -mb-20 w-100 h-100 bg-accent/15 rounded-full blur-3xl pointer-events-none hidden lg:block"
         aria-hidden="true"
       />
 
@@ -24,16 +24,16 @@ export default function BannerHero() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Conteúdo textual */}
           <div className="space-y-8 text-center lg:text-left">
-            <Tag>gestão completa de marketing do seu negócio</Tag>
+            <Tag>Marketing completo - Belo horizonte e Região</Tag>
 
             <h1 className="font-manrope font-extrabold text-5xl md:text-6xl lg:text-7xl leading-none text-primary">
-              Cuidamos do seu Instagram do início ao{" "}
-              <span className="text-gradient">resultado.</span>
+              Da gravação ao tráfego pago: fazemos o{" "}
+              <span className="text-gradient">marketing completo.</span>
             </h1>
 
             <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto lg:mx-0 font-light">
-              Conteúdo, gravação, postagens diárias e tráfego pago. Você não se
-              preocupa com nada. A gente entrega resultado.
+              Gravações, edições de vídeos, postagens, storys e a gestão
+              completa de tráfego pago (Google, Instagram e Facebook).
             </p>
 
             <div

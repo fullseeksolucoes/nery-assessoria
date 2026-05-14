@@ -45,6 +45,9 @@ export const metadata: Metadata = {
     "marketing para negócios",
     "Sabará",
     "Belo Horizonte",
+    "Belo Horizonte e Região",
+    "Grande BH",
+    "Região Metropolitana de Belo Horizonte",
     "Minas Gerais",
   ],
   authors: [{ name: "Nery Assessoria Marketing" }],
@@ -118,7 +121,7 @@ const jsonLd = {
       },
       address: {
         "@type": "PostalAddress",
-        addressLocality: "Sabará",
+        addressLocality: "Belo Horizonte",
         addressRegion: "MG",
         addressCountry: "BR",
       },
@@ -147,7 +150,7 @@ const jsonLd = {
       email: "contato@neryassessoria.com.br",
       address: {
         "@type": "PostalAddress",
-        addressLocality: "Sabará",
+        addressLocality: "Belo Horizonte",
         addressRegion: "MG",
         addressCountry: "BR",
       },
